@@ -1,0 +1,6 @@
+include:
+  - project: 'templates/ci'
+    file: "/kaniko.gitlab-ci.yml"
+
+variables:
+  CAFE_BUILD_DOCKERFILES: "Dockerfile"
